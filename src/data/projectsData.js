@@ -1,42 +1,67 @@
-import shopFake from '../assets/svg/projects/shop-fake.png'
-import gerenciarLink from "../assets/svg/projects/gerenciar-link.png"
+import shopFake from "../assets/svg/projects/shop-fake.png";
+import gerenciarLink from "../assets/svg/projects/gerenciar-link.png";
+import acme from "../assets/svg/projects/acme.png";
+import football from "../assets/svg/projects/api-football.png";
 export const projectsData = [
-    {
-        id: 1,
-        projectName: 'Fake Shopping Cart',
-        projectDesc: 'Carrinho de compras',
-        tags: ['React', 'JavaScript', 'MUI', 'Requisição API', 'Redux Toolkit', "React-toastify"],
-        code: 'https://github.com/paulinha-19/fake-shopping-cart',
-        demo: 'https://fake-store-on.netlify.app/',
-        image: shopFake
-    },
-    {
-        id: 2,
-        projectName: 'Cadastro de pacientes',
-        projectDesc: 'Solução web para consultar e cadastrar pacientes.',
-        tags: ['React', 'MUI', 'React hooks', 'JavaScript'],
-        code: 'https://github.com/paulinha-19/crud-pacientes',
-        demo: '',
-        image: 'https://paulinha-19.github.io/portfolio/assets/tela%20projetos/acme.png'
-    },
-    {
-        id: 3,
-        projectName: 'Sistema de livros',
-        projectDesc: 'Solução para empréstimo e doação de livros',
-        tags: ['React', 'MUI', 'Azure AD', 'Yup', 'TypeScript'],
-        code: '',
-        demo: '',
-        image: 'https://paulinha-19.github.io/portfolio/assets/tela%20projetos/ava_resized.png'
-    },
-    {
-        id: 4,
-        projectName: 'Gerenciador de links',
-        projectDesc: 'Sistema web para salvar, editar, listar e deletar links de artigos',
-        tags: ['React', 'React-query', 'Node', 'Express', 'ORM Sequelize', 'MySql', 'WebCrawler'],
-        code: 'https://github.com/paulinha-19/api-link',
-        demo: '',
-        image: gerenciarLink
-    }
-]
-
-
+  {
+    id: 1,
+    projectName: "Carrinho de compras",
+    projectDesc: "Carrinho de compras",
+    tags: [
+      "React",
+      "JavaScript",
+      "MUI",
+      "Consumo de API",
+      "Redux Toolkit",
+      "React-toastify",
+    ],
+    code: "https://github.com/paulinha-19/fake-shopping-cart",
+    demo: "https://fake-store-on.netlify.app/",
+    image: shopFake,
+  },
+  {
+    id: 2,
+    projectName: "Gerenciador de links",
+    projectDesc:
+      "Esse foi um teste tecnico para uma vaga de trainee com o objetivo de desenvolver um sistema web para salvar, editar, listar e deletar links de artigos",
+    tags: [
+      "React",
+      "React-query",
+      "Node",
+      "Express",
+      "ORM Sequelize",
+      "MySql",
+      "WebCrawler",
+    ],
+    code: "https://github.com/paulinha-19/api-link",
+    demo: "",
+    image: gerenciarLink,
+  },
+  {
+    id: 3,
+    projectName: "Clinica Acme",
+    projectDesc:
+      "O objetivo foi desenvolver uma solução web para consultar e cadastrar pacientes destinado a uma vaga Front-end Jr",
+    tags: ["React", "MUI", "React hooks", "JavaScript"],
+    code: "https://github.com/paulinha-19/crud-pacientes",
+    demo: "",
+    image: acme,
+  },
+  {
+    id: 4,
+    projectName: "Meu time",
+    projectDesc:
+      "Esse teste tecnico é uma aplicação web para visualizar informações sobre ligas e copas ao redor do mundo desenvolvido para uma vaga Front-end",
+    tags: [
+      "React",
+      "MUI",
+      "React hooks",
+      "TypScript",
+      "Consumo de API",
+      "Framer-Emotion",
+    ],
+    code: "https://github.com/paulinha-19/api-football",
+    demo: "https://api-football-tawny.vercel.app/",
+    image: football,
+  },
+];

@@ -16,7 +16,7 @@ function SingleProjectUI({ id, name, desc, tags, code, demo, image, theme, class
             >
                 <div className='projectContent'>
                     <h2
-                        id={name.replace(' ', '-').toLowerCase()}
+                        id={name?.replace(' ', '-').toLowerCase()}
                         style={{ color: theme.tertiary }}
                     >
                         {name}
@@ -29,14 +29,14 @@ function SingleProjectUI({ id, name, desc, tags, code, demo, image, theme, class
                             rel='noreferrer'
                             className={classes.iconBtn}
                             aria-labelledby={`${name
-                                .replace(' ', '-')
+                                ?.replace(' ', '-')
                                 .toLowerCase()} ${name
-                                    .replace(' ', '-')
+                                    ?.replace(' ', '-')
                                     .toLowerCase()}-demo`}
                         >
                             <FaPlay
                                 id={`${name
-                                    .replace(' ', '-')
+                                    ?.replace(' ', '-')
                                     .toLowerCase()}-demo`}
                                 className={classes.icon}
                                 aria-label='Demo'
@@ -48,14 +48,14 @@ function SingleProjectUI({ id, name, desc, tags, code, demo, image, theme, class
                             rel='noreferrer'
                             className={classes.iconBtn}
                             aria-labelledby={`${name
-                                .replace(' ', '-')
+                                ?.replace(' ', '-')
                                 .toLowerCase()} ${name
-                                    .replace(' ', '-')
+                                    ?.replace(' ', '-')
                                     .toLowerCase()}-code`}
                         >
                             <FaCode
                                 id={`${name
-                                    .replace(' ', '-')
+                                    ?.replace(' ', '-')
                                     .toLowerCase()}-code`}
                                 className={classes.icon}
                                 aria-label='Code'
