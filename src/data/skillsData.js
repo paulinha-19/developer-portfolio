@@ -1,11 +1,12 @@
 export const skillsData = [
-    'HTML',
-    'CSS',
-    'Javascript',
-    'Typescript',
-    'React',
-    'Node Js',
-    'MaterialUI',
-    'Git',
-    'React query'
-]
+  "HTML",
+  "CSS",
+  "Javascript",
+  "Typescript",
+  "React",
+  "Node Js",
+  "MaterialUI",
+  "Git",
+  "React query",
+  "Styled Components",
+];
