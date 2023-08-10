@@ -75,6 +75,7 @@ import wolframalpha from "../assets/svg/skills/wolframalpha.svg";
 import reactQuery from "../assets/svg/skills/react-query.svg";
 import canva from "../assets/svg/skills/canva.svg";
 import styledComponents from "../assets/svg/skills/styled-components.png";
+import express from "../assets/svg/skills/express.svg";
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -233,6 +234,8 @@ export const skillsImage = (skill) => {
       return reactQuery;
     case "styled components":
       return styledComponents;
+      case "express js":
+      return express;
     default:
       break;
   }

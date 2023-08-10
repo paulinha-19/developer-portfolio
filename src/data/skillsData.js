@@ -5,6 +5,7 @@ export const skillsData = [
   "Typescript",
   "React",
   "Node Js",
+  "Express JS",
   "MaterialUI",
   "Git",
   "React query",

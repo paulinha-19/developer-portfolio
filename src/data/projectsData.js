@@ -58,9 +58,9 @@ export const projectsData = [
     id: 4,
     projectName: "Clinica Acme",
     projectDesc:
-      "O objetivo foi desenvolver uma solução web para consultar e cadastrar pacientes destinado a uma vaga Front-end Jr",
-    tags: ["React", "MUI", "React hooks", "JavaScript"],
-    code: "https://github.com/paulinha-19/crud-pacientes",
+      "O objetivo é desenvolver um sistema de agendamento de consultas médicas",
+    tags: ["Projeto em desenvolvimento"],
+    code: "",
     demo: "",
     image: acme,
   },
