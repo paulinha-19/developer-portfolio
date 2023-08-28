@@ -33,7 +33,7 @@ export const projectsData = [
       "Framer-Emotion",
     ],
     code: "https://github.com/paulinha-19/api-football",
-    demo: "https://api-football-tawny.vercel.app/",
+    demo: "https://api-football-one.vercel.app/",
     image: football,
   },
   {
