@@ -1,7 +1,8 @@
 import shopFake from "../assets/svg/projects/shop-fake.png";
 import gerenciarLink from "../assets/svg/projects/gerenciar-link.png";
-import acme from "../assets/svg/projects/acme.png";
 import football from "../assets/svg/projects/api-football.png";
+import volvo from "../assets/svg/projects/volvo.png";
+
 export const projectsData = [
   {
     id: 1,
@@ -14,6 +15,7 @@ export const projectsData = [
       "Consumo de API",
       "Redux Toolkit",
       "React-toastify",
+      "Vite",
     ],
     code: "https://github.com/paulinha-19/fake-shopping-cart",
     demo: "https://fake-store-on.netlify.app/",
@@ -29,7 +31,7 @@ export const projectsData = [
       "MUI",
       "React hooks",
       "TypScript",
-      "Consumo de API",
+      "Vite",
       "Framer-Emotion",
     ],
     code: "https://github.com/paulinha-19/api-football",
@@ -46,8 +48,8 @@ export const projectsData = [
       "React-query",
       "Node",
       "Express",
-      "ORM Sequelize",
-      "MySql",
+      "ORM Prisma",
+      "Postgree",
       "WebCrawler",
     ],
     code: "https://github.com/paulinha-19/api-link",
@@ -56,12 +58,11 @@ export const projectsData = [
   },
   {
     id: 4,
-    projectName: "Clinica Acme",
-    projectDesc:
-      "O objetivo é desenvolver um sistema de agendamento de consultas médicas",
-    tags: ["Projeto em desenvolvimento"],
-    code: "",
+    projectName: "Volvo Cars",
+    projectDesc: "Teste para uma vaga de desenvolvedor front end",
+    tags: ["Nextjs", "TypeScript", "Tailwind"],
+    code: "https://github.com/paulinha-19/god-frontend-code-test/tree/development",
     demo: "",
-    image: acme,
+    image: volvo,
   },
 ];
