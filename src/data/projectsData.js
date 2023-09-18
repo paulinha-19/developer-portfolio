@@ -1,5 +1,5 @@
 import shopFake from "../assets/svg/projects/shop-fake.png";
-import gerenciarLink from "../assets/svg/projects/gerenciar-link.png";
+import development from "../assets/svg/projects/development.jpg";
 import football from "../assets/svg/projects/api-football.png";
 import volvo from "../assets/svg/projects/volvo.png";
 
@@ -40,21 +40,13 @@ export const projectsData = [
   },
   {
     id: 3,
-    projectName: "Gerenciador de links",
+    projectName: "Clínica acme",
     projectDesc:
-      "Esse foi um teste tecnico para uma vaga de trainee com o objetivo de desenvolver um sistema web para salvar, editar, listar e deletar links de artigos",
-    tags: [
-      "React",
-      "React-query",
-      "Node",
-      "Express",
-      "ORM Prisma",
-      "Postgree",
-      "WebCrawler",
-    ],
-    code: "https://github.com/paulinha-19/api-link",
+      "Esse é o frontend do sistema de agendamento de consulta médica desenvolvido em colaboração com outro desenvolvedor. O projeto conta com pessoas voluntárias que estão buscando aperfeiçoar habilidades técnicas e comportamentais.",
+    tags: ["Nextjs", "TypeScript", "ChackraUi", "Zod", "React-hook-form"],
+    code: "https://github.com/paulinha-19/frontend-agendamento",
     demo: "",
-    image: gerenciarLink,
+    image: development,
   },
   {
     id: 4,
@@ -64,5 +56,5 @@ export const projectsData = [
     code: "https://github.com/paulinha-19/god-frontend-code-test/tree/development",
     demo: "",
     image: volvo,
-  },
+  }
 ];
